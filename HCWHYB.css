@@ -1,0 +1,451 @@
+/*HOW CAN WE HELP SECTION*/
+
+*{
+    --white: #FFFFFF;
+    --light-grey: #565656;
+    --lighter-grey: #959595;
+    --black:#000000;
+    --blue: #2639ED;
+    --light-blue:#F4F9FF;
+    --light-pink:#FFF5DB;
+    --cards-height: 700px;
+    --text-CW: #A4A4A4;
+    --top-footer-border: #E4E4E4;
+    --bottom-footer-border:#F1F1F1;
+}
+
+/*FONT CONFIGURATION*/
+
+h1{
+    margin: 0 0 0 120px;
+    font-size: 27.1472px;
+    line-height: 33px;
+}
+h2{
+    font-size: 40px;
+    line-height: 49px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--black);
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: var(--black);
+}
+h4{
+    font-size: 20px;
+    line-height: 25px;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: var(--black);
+    margin-bottom: 32px;
+    margin-top: 54px;
+}
+p{
+    color: var(--light-grey);
+    line-height: 160%;
+}
+
+body{
+    background-color: var(--white);
+    width:100%;
+    font-family: 'Inter', sans-serif;
+    color:var(--black);
+}
+section{
+    margin: 0 0 0 120px;
+}
+a{
+    text-decoration: none;
+}
+section a:visited, header a:visited{
+    color: inherit;
+}
+
+/*HOW CAN WE HELP SECTION*/
+
+.how-can-we-help-bg{
+    background-image: url(Rectangle25.png), url(Rectangle24.png),  
+    url(img/Group70.png), url(Ellipse87.png);
+    background-repeat: no-repeat;
+    background-position: top 80px left 82px, top 95px right, top 530px left 125px, bottom 7px right 190px;
+    background-size: 12%, 1120px 530px, 22.5%, 6.5%;
+}
+.how-can-we-help-bg{
+    background-image:url(img/Group70.png)
+    background-position: top 500px;
+}
+.how-can-we-help{
+    height: var(--cards-height);
+    margin-bottom: 50px;
+}
+.how-can-we-help-text{
+    width: 396px;
+    height: 180px;
+    margin-bottom: 10%;
+}
+.how-can-we-help-text h2, .great-since-text h2, .newsletter-text h2{
+    margin-bottom:36px;
+}
+.how-can-we-help-text p{
+    line-height: 25.6px
+}
+.cards{
+    height: var(--cards-height);
+}
+.how-can-we-help-cards{
+    width:550px;
+}
+.how-can-we-help .how-can-we-help-items{
+    height: var(--cards-height);
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.how-can-we-help-cards .cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cards-left, .cards-right{
+    height: var(--cards-height);
+}
+.cards .cards-left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.cards .cards-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    width: 260px;
+    height: 310px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+#HCWC-p{
+    margin-bottom: 30px;
+    font-size: 90%;
+}
+.card h3{
+    font-size: 130%;
+}
+.card p, h3{
+    margin: 10px 30px 0 30px;
+}
+.card svg{
+    margin-top: 20px;
+}
+.marginB{
+    margin-bottom:32px;
+    margin-right: 45px;
+}
+.marginT{
+    margin-top:32px;
+}
+
+/*GREAT SINCE SECTION*/
+
+.great-since-bg{
+    height: 480px;
+    background-image: url(Rectangle26.png), url(Ellipse86.png);
+    background-repeat: no-repeat;
+    background-position: top 105px left 1155px, top 350px left 600px;
+    margin-bottom:220px;
+    margin-top:158px;
+}
+.great-since-bg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.great-since-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 375px;
+    width:90%;
+}
+.great-since .great-since-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.great-since-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 540px;
+    height: 375px;
+}
+.great-since-button{
+    position: absolute;
+    left: 350px;
+    top: 2180px;
+}
+.great-since-video img{
+    width:550px;
+    height:375px;
+    object-fit: cover;
+    border-radius: 32px;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+    margin-right: 90px;
+}
+
+/*NEWSLETTER SECTION*/
+
+.newsletter-bg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 387px;
+    background-image: 
+    url(Rectangle31.png), url(Rectangle30.png), 
+    url(Rectangle32.png), url(Group73.png);
+    background-repeat: no-repeat;
+    background-position: top 50px right 130px, top 50px left 122px, bottom -100px left 85px, top right 70px;
+    background-size: auto, 1400px 292px, 300px 292px, auto, auto, auto;
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+.newsletter{
+    height: 160px; 
+}
+.newsletter-items{
+    width:90%;
+    height: 160px; 
+}
+.newsletter .newsletter-items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsletter-text{
+    width:440px;
+    margin-left:90px;
+    margin-bottom: 1%;
+    max-width: 100%;;
+}
+.newsletter-button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 60px;
+    padding: 10px 12px 10px 35px;
+    margin-top: 1%;
+    margin-left: 42px;
+    height: 70px; 
+    width:479px;
+}
+.newsletter-button button{
+    width:188px;
+    background-color:var(--blue);
+    height: 65px;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0.065em;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: var(--white);
+    border-radius: 60px;
+    border-style: none;
+}
+.newsletter-button input{
+    color: #959595;
+    width:240px;
+    outline:none;
+    border:none;
+}
+
+@media screen and (max-width: 1340px){
+    .how-can-we-help-bg, .great-since-bg, .newsletter-bg{
+        width: 100%;
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .how-can-we-help-items, .great-since-items, .newsletter-items{
+      height: auto;
+      margin-top: 2%;
+    }
+
+    .how-can-we-help-bg{
+        margin-bottom:20%;
+        padding-bottom: 20%;
+        background-color: var(--light-blue);
+    }
+    .how-can-we-help-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .how-can-we-help-items{
+        box-sizing: border-box;
+        margin-right:0px;
+        margin-left:15%;
+    }
+
+    .how-can-we-help .how-can-we-help-items{
+        width:70%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .great-since-bg{
+        margin-bottom:5%;
+    }
+    .great-since-button{
+        display: none;
+    }
+    .great-since .great-since-items{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .great-since-text{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .great-since-video{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .great-since-video img{
+        margin:0px;
+        border-radius: 32px;
+        box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+    }
+    .newsletter-bg{
+        height:360px;
+        margin-top:10%;
+        background-color: var(--light-pink);
+        padding-bottom:10%;
+    }
+    .newsletter .newsletter-items{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .newsletter-text{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left:0;
+    }
+    .newsletter-button{
+        margin-top:2%;
+    }
+    section{
+        margin: 5% 8% 5% 8%;
+    }
+    .great-since-items, .newsletter-items{
+        margin-left: 5%;
+    }
+    }
+    @media screen and (max-width: 960px){
+        .how-can-we-help .how-can-we-help-items{
+            height: var(--cards-height);
+            width:80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .how-can-we-help-cards .cards{
+            display: flex;
+            flex-direction: row;
+        }
+        .how-can-we-help-cards{
+            margin:16px;
+            margin-left: 80px;
+        }
+        .cards-left, .cards-right{
+            height: var(--cards-height);
+        }
+        .cards .cards-left{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .cards .cards-right{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .cards-left, .cards-right{
+            height: auto;
+        }
+        .card{
+            display: flex;
+            flex-direction: row;
+            background-color: var(--white);
+            border: 1px solid #F2F2F2;
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+            border-radius: 40px;
+            width: auto;
+            height: auto;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            padding: 0 5% 0 5%;
+        }
+        .cards{
+            margin-left: 16px;
+        }
+        .card h3{
+            font-size: 130%;
+            width:35%;
+        }
+        .card p{
+            font-size:20%;
+            width: 40%;
+        }
+        .card svg{
+            width: 15%;
+        }
+        #HCWC-p{
+            margin-bottom: 30px;
+            font-size: 90%;
+        }
+
+
+    }

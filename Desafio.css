@@ -1,0 +1,131 @@
+:root {
+    --white: #FFFFFF;
+    --background: #FEFEFE;
+    --light-grey: #565656;
+    --medium-gray: #757575;
+    --lighter-grey: #959595;
+    --black: #000000;
+    --blue: #2639ED;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background);
+}
+
+.firstcontent {
+    margin-bottom: 124px;
+}
+
+nav a {
+    color: #000;
+}
+.cabecalho nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 50%;
+    text-decoration: none;
+    color: var(--black);
+    margin-top: 49px;
+}
+
+.cabecalho nav:active {
+    color: inherit;
+}
+
+.devstudio {
+    font-size: 27.15px;
+    margin-top: 19px;
+    margin-left: 113px;
+    font-weight: 400;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textosconteudo {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    margin: auto 0;
+}
+
+.textosconteudo h2 {
+    margin-bottom: 40px;
+}
+
+.normaltext{
+    color: var(--light-grey);
+}
+.imagenstopo {
+    /* position: relative; */
+}
+
+.imagemconteudo {
+    width: 50%;
+    z-index: 1;
+}
+.elipse {
+    position: absolute;
+    z-index: -1;
+    margin-left: 43.5%;
+}
+.rectangle {
+    position: absolute;
+    z-index: -1;
+    margin-top: 546px;
+    margin-left: 76%;
+}
+.dots {
+    position: absolute;
+    z-index: -1;
+    margin-top: 420px;
+    margin-left: -3%;
+}
+.dots2 {
+    position: absolute;
+    z-index: -1; 
+    margin-top: 420px;
+    margin-left: 8%;
+}
+
+
+.textosconteudo h1 {
+    margin-bottom: 40px;
+}
+
+.textosconteudo p {
+    margin-bottom: 33px;
+}
+
+.contact {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+    background-color: var(--blue);
+    padding: 20px 40px;
+    gap: 10px;
+    border-radius: 60px;
+    width: 215px;
+    height: 65px;
+    border: none;
+}
+.firstfooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 136px;
+    margin-right: 120px;
+}
+.textfirstfooter {
+    flex-direction: column;
+    
+}
+.textfirstfooter p {
+    font-size: 18px;
+    width: 336px;
+    margin-top: 17px;
+    color: var(--medium-gray);
+}
